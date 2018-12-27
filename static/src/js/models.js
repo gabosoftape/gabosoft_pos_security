@@ -1,6 +1,6 @@
 /* Copyright 2016 David Gómez Quilón <david.gomez@aselcis.com>
    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-*/
+
 odoo.define('gabosoft_pos_security.models', function (require) {
     "use strict";
     var models = require('point_of_sale.models');
@@ -29,3 +29,5 @@ odoo.define('gabosoft_pos_security.models', function (require) {
     models.load_fields('res.company', ['street', 'city', 'state_id', 'zip']);
 
 });
+
+*/

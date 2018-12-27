@@ -1,7 +1,7 @@
 /*
    Copyright 2018 Gabriel Pabon <gabosoft.ape@gmail.com>
    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-*/
+
 
 odoo.define('gabosoft_pos_security.screens', function (require) {
     "use strict";
@@ -17,8 +17,9 @@ odoo.define('gabosoft_pos_security.screens', function (require) {
             var lines = this.pos.get_order().get_paymentlines();
 
 
-          
+
         }
     });
 
 });
+*/
